@@ -4,11 +4,11 @@ import Sidebar from "./sidebar";
 import { Menu } from "lucide-react";
 export default function MobileSidebar() {
   return (
-    <Sheet>
+    <Sheet >
       <SheetTrigger>
         <Menu className="text-white" />{" "}
       </SheetTrigger>
-      <SheetContent className="p-0 z-[100]" side="left">
+      <SheetContent className="bg-white p-0 z-[100]" side="left">
         <Sidebar />
       </SheetContent>
     </Sheet>
